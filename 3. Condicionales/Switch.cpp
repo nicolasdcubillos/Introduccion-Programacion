@@ -15,21 +15,26 @@ int main() {
     cin >> opcion;
 
     switch (opcion) {
-        case 1:
+        case 1: {
             cout << "Has elegido ver el saldo." << endl;
             break;
-        case 2:
+        }
+        case 2: {
             cout << "Has elegido retirar dinero." << endl;
             break;
-        case 3:
+        }
+        case 3: {
             cout << "Has elegido depositar dinero." << endl;
             break;
-        case 4:
+        }
+        case 4: {
             cout << "Saliendo del programa..." << endl;
             break;
-        default:
+        }
+        default: {
             cout << "Opción no válida. Intenta de nuevo." << endl;
             break;
+        }   
     }
 
     return 0;
