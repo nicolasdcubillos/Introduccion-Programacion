@@ -6,3 +6,7 @@ a.out
 *.exe
 *.so
 *.dylib
+
+# Todos los ejecutables sin extensión (pero que son archivos ejecutables)
+# Ignora cualquier archivo en el repo que sea ejecutable y no tenga extensión
+*.[!.]*
