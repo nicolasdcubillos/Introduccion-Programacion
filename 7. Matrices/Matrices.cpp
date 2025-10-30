@@ -3,7 +3,7 @@ using namespace std;
 
 // Función para llenar la matriz
 void llenarMatriz(int filas, int columnas, int matriz[][100]) {
-    cout << "Llenar la matriz (" << filas << "x" << columnas << "):\n";
+    cout << "Llenar la matriz (" << filas << "x" << columnas << "):" << endl;
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columnas; j++) {
             cout << "Ingrese el valor en [" << i << "][" << j << "]: ";
@@ -24,6 +24,7 @@ void imprimirMatriz(int filas, int columnas, int matriz[][100]) {
 }
 
 int contarPares(int filas, int columnas, int matriz[][100]) {
+    cout << endl << "Pares en la matriz: ";
     int contador = 0;
     for (int i = 0; i < filas; i++) {
         for (int j = 0; j < columnas; j++) {
@@ -39,7 +40,7 @@ int contarPares(int filas, int columnas, int matriz[][100]) {
 
 int main() {
     int filas, columnas;
-    int matriz[100][100]; // tamano máximo permitido
+    int matriz[100][100]; // tamano máximo permitido para el ejercicio
 
     cout << "Ingrese el número de filas: ";
     cin >> filas;
