@@ -10,7 +10,7 @@ struct Estudiante {
 };
 
 int main() {
-    const int NUM_ESTUDIANTES = 3;
+    int NUM_ESTUDIANTES = 3;
     Estudiante grupo[NUM_ESTUDIANTES];
 
     cout << "--- Registro de estudiantes ---" << endl;
