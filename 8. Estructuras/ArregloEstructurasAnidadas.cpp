@@ -43,8 +43,7 @@ void buscarPorCiudad(Estudiante grupo[], int cantidad, string ciudadBuscada) {
     cout << "\nEstudiantes de " << ciudadBuscada << ":\n";
     for (int i = 0; i < cantidad; i++) {
         if (grupo[i].domicilio.ciudad == ciudadBuscada) {
-            cout << "Nombre: " << grupo[i].nombre 
-                 << " | Promedio: " << grupo[i].promedio << endl;
+            cout << "Nombre: " << grupo[i].nombre << " | Promedio: " << grupo[i].promedio << endl;
             encontrado = true;
         }
     }

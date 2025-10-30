@@ -43,9 +43,7 @@ int main() {
     cout << "Nombre: " << alumno.nombre << endl;
     cout << "Edad: " << alumno.edad << endl;
     cout << "Promedio: " << alumno.promedio << endl;
-    cout << "Direccion: " << alumno.domicilio.calle << ", "
-         << alumno.domicilio.ciudad << ", "
-         << alumno.domicilio.pais << endl;
+    cout << "Direccion: " << alumno.domicilio.calle << ", " << alumno.domicilio.ciudad << ", " << alumno.domicilio.pais << endl;
 
     return 0;
 }
