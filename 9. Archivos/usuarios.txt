@@ -1,0 +1,16 @@
+Nicolas
+nicolas123
+22
+Profesor
+Juan
+juan123
+53
+Estudiante
+Matias
+matias456
+500
+Estudiante
+Juana
+juana123
+1000
+Estudiante
