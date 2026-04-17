@@ -12,6 +12,20 @@ struct Usuario {
     string cargo;
 };
 
+struct Resultado {
+    int suma;
+    int promedio;
+};
+
+Resultado buscarSubMatriz(...) {
+    Resultado resultado;
+    for (...) {
+        resultado.suma = ...;
+        resultado.promedio = ...;
+    }
+    return resultado;
+}
+
 void llenarDatos(Usuario usuarios[], int tam) {
     for (int i = 0; i < tam; i++) {
         cout << "Ingrese el nombre del usuario: ";
@@ -71,6 +85,8 @@ void iniciarSesion(string usuario, string clave, Usuario usuarios[], int tam) {
     }
     cout << "No se pudo iniciar sesion.";
 }
+
+
 
 void cambiarClave(string usuario, string nuevaClave, Usuario usuarios[], int tam) {
     for (int i = 0; i < tam; i++) {
